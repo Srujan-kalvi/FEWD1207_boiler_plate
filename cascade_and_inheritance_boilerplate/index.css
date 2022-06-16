@@ -1,7 +1,7 @@
 /* Iteration-0: Override the web page styles by giving margin and padding as 0px */
 
 
-/* Iteration-1 : Implement the cascade property here such that body gets #fff color and change font family to  Arial, sans-serif */
+/* Iteration-1 : Implement the cascade property[source order] here such that body gets #fff color and change font family to  Arial, sans-serif */
 body{
   background-color:red;
 }
