@@ -1,34 +1,21 @@
 /* Iteration-1: Override the web page styles by giving margin and padding as 0px */
-
-  
-  /* Iteration-2 : Implement the cascade  source order property here such that body gets #fff color and change font family to  Arial, sans-serif */
+/* Iteration-2 : Implement the cascade property here such that body gets #fff color and change font family to  Arial, sans-serif */
   body{
     background-color:red;
   }
-  
-  
- 
-  
-  /* Iteration-3: Implement Specificity property for the h1 by selecting its class and change the text color to #fff  */
-  
+  /* Iteration-3: Implement Specificity property for the h1 and change the text color to #fff  */
   h1{
     color:red;
   }
-  
-  
-  /* Iteration-4 : Implement the Inheritance property for strong class by using controlling inheritance property called inherit  */
   .str{
     color:green;
   }
-  
-  
-  
-  /* Iteration-5: Select the class high-2 and give its color property to revert layer so that it Resets the property value applied to a selected element to the value established in a previous cascade layer. */
+  /* Iteration-4 : Implement the Inheritance property for strong class by using one of the controlling inheritance property by which it can inherit the parent text color property  */
   .high-2{
     color:blue;
     background-color: yellow;
   }
-  
+  /* Iteration-5: Select the class high-2 and give its a controlling inheritance property so that it Resets the property value applied to a selected element to the value established in a previous cascade layer. */
   p{
     margin: 10px 0;
     color: black;
@@ -36,23 +23,18 @@
   .potential{
     color: blue;
   }
-  /* Iteration-6: select the class high-1 and set its background color property to revert so that it Resets the property value applied to a selected element to the browser's default styling rather than the defaults applied to that property and then make its text color to black so that the text is visible in the web page
-  */
   .high-1{
     color: #fff;
     background-color:red;
-   
+    /* Iteration-6:set the background color property to one of the controlling inheritance property such that  it Resets the property value applied to a selected element to the browser's default styling rather than the defaults applied to that property and then make its text color to black so that the text is visible in the web page
+  */
   }
-  
-  /* Iteration-7: select the class high and set its color property to initial so that it gets its initial color what it had before */
   .high{
     color: #fff;
     background-color:red;
-   
-  
-  }
-  
-  .container{
+    /* Iteration-7: set color property to one of the controlling inheritance property such that it gets its initial color what it had before */
+}
+.container{
     width: 940px;
     overflow: auto;
     margin: auto;
@@ -64,14 +46,11 @@
     text-align: center;
     padding-top: 20px;
   }
-  
-  /* Iteration-8:  select the class high-3 and set its background-color property to unset so that it Resets the property to its natural value, which means that if the property is naturally inherited it acts like inherit, otherwise it acts like initial*/
-  .high-3{
+.high-3{
     color:brown;
     background-color:lightcyan;
   }
-  
-  
+  /* Iteration-8:  select the class high-3 and set its background-color property to one of the controlling inheritance property so that it Resets the property to its natural value, which means that if the property is naturally inherited it acts like inherit, otherwise it acts like initial*/
   
   /* Styling the timeline */
   
@@ -81,23 +60,15 @@
     margin: 20px 0;
     padding-top: 10px;
   }
-  
-  
-  
-  
   .tl-block{
     position: relative;
     width: 100%;
     min-height: 100px;
-    /* this property will be surely added to the web page because of !important property */
     
-  /*   Iteration-9 : Make the margin bottom of tl-block to 20px and give important property for its class to make it more specific so that any other  property wont override it */
-   
+  /*   Iteration-9 : Make the margin bottom of tl-block to 20px and give it a special property to make it more specific so that any other property wont override it */
+    margin-bottom: 20px !important;
   }
-  
-  
-  
-  .tl-block{
+   .tl-block{
     margin-bottom:90px;
   }
   
@@ -138,9 +109,7 @@
   
   /* Styling the Events */
   
-  
-  
-  .tl-event > div{
+ .tl-event > div{
     width: 45%;
     position: relative;
   }
