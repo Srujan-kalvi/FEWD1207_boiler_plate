@@ -23,7 +23,7 @@ h1 {
   background-color: yellow;
 }
 
-/* Iteration-5: Select the class high-2 and set it a color property so that it sets its value established in a previous cascade layer. */
+/* Iteration-5: Select the class high-2 and set its color property to the value which is established in a previous cascade layer. */
 
 p {
   margin: 10px 0;
@@ -37,7 +37,6 @@ p {
 .high-1 {
   color: #fff;
   background-color: red;
-
   /* Iteration-6:set the background color property such that it Resets the property value to the browser's default styling and then make its text color to black
   */
 
@@ -46,7 +45,6 @@ p {
 .high {
   color: #fff;
   background-color: red;
-
   /* Iteration-7: set color property such that it gets its initial color what it had before */
 
 }
@@ -86,7 +84,6 @@ header {
   position: relative;
   width: 100%;
   min-height: 100px;
-
   /*   Iteration-9 : Make the margin bottom of tl-block to 20px and give it a special property so that any other property wont override it */
 
   margin-bottom: 20px !important;
