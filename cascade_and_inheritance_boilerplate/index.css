@@ -23,7 +23,7 @@ h1 {
   background-color: yellow;
 }
 
-/* Iteration-5: Select the class high-2 and set it a color property so that it Resets the property value applied to it and sets its value established in a previous cascade layer. */
+/* Iteration-5: Select the class high-2 and set it a color property so that it sets its value established in a previous cascade layer. */
 
 p {
   margin: 10px 0;
@@ -38,7 +38,7 @@ p {
   color: #fff;
   background-color: red;
 
-  /* Iteration-6:set the background color property such that it Resets the property value applied to a selected element to the browser's default styling and then make its text color to black
+  /* Iteration-6:set the background color property such that it Resets the property value to the browser's default styling and then make its text color to black
   */
 
 }
@@ -48,7 +48,7 @@ p {
   background-color: red;
 
   /* Iteration-7: set color property such that it gets its initial color what it had before */
-  
+
 }
 
 .container {
